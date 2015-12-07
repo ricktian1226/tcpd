@@ -1,0 +1,6 @@
+package tcpd_proto;
+
+message TcpdTest{
+    optional uint64 uid = 1;
+	optional string msg = 2;
+}
